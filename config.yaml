@@ -1,0 +1,22 @@
+app:
+  name: "VisionAVI"
+  version: "1.0.0"
+  batch: KNCVB1
+
+database:
+  host: "localhost"
+  port: 5432
+  user: "user"
+  password: "password"
+  database_name: "visionavi"
+
+logging:
+  enable : False
+  level: "level-1"
+  file: "logs/app.log"
+
+dummy:
+  variable_1 : 10
+  variable_2 : 20
+  task : "add"
+
